@@ -1,0 +1,32 @@
+{
+  "name": "ar-app-v1",
+  "version": "1.0.0",
+  "description": "WebAR Multi-markers using AFrame and AR.js.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ucl-casa-ce/AFrame_AR_Multimarkers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ucl-casa-ce/AFrame_AR_Multimarkers/issues"
+  },
+  "homepage": "https://github.com/ucl-casa-ce/AFrame_AR_Multimarkers#readme",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "cors": "^2.8.5",
+    "dns": "^0.2.2",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
+
+}

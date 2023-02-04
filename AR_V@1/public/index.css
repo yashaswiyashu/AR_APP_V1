@@ -1,0 +1,24 @@
+.button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 0.25em;
+    border-radius: 4px;
+    border: none;
+    background: gold;
+    background-image: url("./assets/location.png");
+    width: 3.75em;
+    height: 3.75em;
+    bottom: 1rem;
+    cursor: pointer;
+}
